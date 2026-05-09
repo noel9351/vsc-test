@@ -1,69 +1,65 @@
-# Website Plan
+# Website Plan — Noel Gafner Portfolio
 
-## Konzept
-Eine moderne, statische Website als erstes Testprojekt im vsc-test Repository.
+## Anforderungen
+
+| Kategorie   | Entscheidung                                      |
+|-------------|---------------------------------------------------|
+| Typ         | Persönliches Developer-Portfolio                  |
+| Design      | Dark & Tech — "Terminal Prime" Ästhetik           |
+| Seiten      | Home, About, Projects, Contact                    |
+| Rolle       | Developer / Entwickler                            |
+| Projekte    | Web-Projekte + GitHub Repos (Karten-Layout)       |
+| Kontakt     | E-Mail + LinkedIn + GitHub                        |
+| Framework   | Kein Framework — reines HTML / CSS / JS           |
 
 ---
 
-## Ziel
-- Erste funktionierende HTML/CSS/JS Website aufbauen
-- Saubere Dateistruktur von Anfang an etablieren
-- Direkt mit GitHub verknüpft und versioniert
+## Design-Token
+
+| Variable     | Wert        | Verwendung             |
+|--------------|-------------|------------------------|
+| `--bg`       | `#030305`   | Haupt-Hintergrund      |
+| `--bg2`      | `#080810`   | Terminal-Blöcke        |
+| `--surface`  | `#0d0d18`   | Karten, Flächen        |
+| `--border`   | `#1a1a2e`   | Rahmen, Trennlinien    |
+| `--green`    | `#00ff88`   | Neon-Primärfarbe       |
+| `--blue`     | `#00b4ff`   | Sekundäre Akzentfarbe  |
+| `--text`     | `#c8d8e8`   | Fliesstext             |
+| `--muted`    | `#3a4a5a`   | Gedämpfter Text        |
+
+**Typografie:** Chakra Petch (Headings) + JetBrains Mono (Body)
 
 ---
 
-## Seitenstruktur
+## Dateistruktur
 
 ```
 vsc-test/
-├── index.html          ← Startseite
-├── about.html          ← Über-Seite
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
 ├── css/
-│   └── style.css       ← Globales Stylesheet
+│   └── style.css
 ├── js/
-│   └── main.js         ← JavaScript
+│   └── main.js
 ├── assets/
-│   └── images/         ← Bilder & Icons
-├── WEBSITE_PLAN.md     ← Diese Datei
-└── README.md           ← Projekt-Übersicht
+│   └── images/
+├── WEBSITE_PLAN.md
+└── README.md
 ```
 
 ---
 
-## Seiten & Inhalte
+## Seiten
 
-### 1. `index.html` — Startseite
-- Hero-Bereich mit Titel und kurzer Beschreibung
-- Navigationsleiste (Home, About)
-- Footer mit Copyright
-
-### 2. `about.html` — Über-Seite
-- Kurzer Text über das Projekt
-- Link zurück zur Startseite
+| Seite            | Inhalt                                          |
+|------------------|-------------------------------------------------|
+| `index.html`     | Hero, Tagline, 3 Feature-Karten                |
+| `about.html`     | Bio, Skill-Tags, Terminal-Block                |
+| `projects.html`  | Web-Projekte + GitHub Repos als Karten         |
+| `contact.html`   | E-Mail, LinkedIn, GitHub Links                 |
 
 ---
 
-## Design
-
-| Element     | Entscheidung              |
-|-------------|---------------------------|
-| Farben      | Dunkelblau `#0f172a`, Weiß `#f8fafc`, Akzent `#6366f1` |
-| Schrift     | System-Font Stack (sans-serif) |
-| Layout      | Flexbox / CSS Grid         |
-| Responsive  | Ja — Mobile First          |
-| Framework   | Kein Framework — reines HTML/CSS/JS |
-
----
-
-## Nächste Schritte
-
-- [ ] `index.html` erstellen
-- [ ] `css/style.css` erstellen
-- [ ] `js/main.js` erstellen
-- [ ] `about.html` erstellen
-- [ ] README.md aktualisieren
-- [ ] Auf GitHub pushen und prüfen
-
----
-
-*Erstellt: 2026-05-09*
+*Erstellt: 2026-05-09 | Skill: creative-design/frontend-design*

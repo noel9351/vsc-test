@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Noel Gafner</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">noel.gafner</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+    <section style="padding-top: 8rem;">
+      <p class="section-label reveal">Who I am</p>
+      <h1 class="section-title reveal">About <span>me</span></h1>
+
+      <div class="about-grid">
+        <div class="about-bio reveal">
+          <p>
+            Ich bin Noel Gafner — ein Entwickler mit einem Faible für sauberen Code,
+            klare Strukturen und Interfaces, die tatsächlich funktionieren.
+          </p>
+          <p>
+            Mein Fokus liegt auf Web-Entwicklung: von statischen Seiten über
+            interaktive Apps bis hin zu Open-Source-Tools auf GitHub. Ich arbeite
+            gerne nah am Produkt und denke von der Architektur bis zum letzten
+            CSS-Detail.
+          </p>
+          <p>
+            Wenn ich nicht code, beschäftige ich mich mit neuen Technologien,
+            lese Tech-Blogs oder experimentiere mit neuen Projekten.
+          </p>
+
+          <div class="skill-tags" style="margin-top:2rem;">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Terminal</span>
+            <span class="skill-tag">Node.js</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay:0.15s">
+          <div class="terminal-block">
+            <div class="t-line"><span>$</span> whoami</div>
+            <div class="t-line" style="color:#c8d8e8; margin-bottom:1rem;">noel.gafner</div>
+
+            <div class="t-line"><span>$</span> cat profile.json</div>
+            <div class="t-line">{</div>
+            <div class="t-line">&nbsp;&nbsp;"role": <span>"Developer"</span>,</div>
+            <div class="t-line">&nbsp;&nbsp;"location": <span>"Schweiz"</span>,</div>
+            <div class="t-line">&nbsp;&nbsp;"focus": <span>"Web &amp; Open Source"</span>,</div>
+            <div class="t-line">&nbsp;&nbsp;"github": <span class="t-blue">"@noel9351"</span>,</div>
+            <div class="t-line">&nbsp;&nbsp;"status": <span>"available"</span></div>
+            <div class="t-line">}</div>
+
+            <div class="t-line" style="margin-top:1rem;"><span>$</span> git log --oneline</div>
+            <div class="t-line"><span class="t-blue">a3f9c1e</span> add portfolio website</div>
+            <div class="t-line"><span class="t-blue">7b2d0fa</span> initial commit</div>
+            <div class="t-line"><span>$</span> <span style="animation: blink 1s step-end infinite; display:inline-block;">&#x2590;</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 <span>Noel Gafner</span> — gebaut mit HTML, CSS &amp; JS</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
